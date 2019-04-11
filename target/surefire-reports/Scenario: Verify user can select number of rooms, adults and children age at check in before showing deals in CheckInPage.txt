@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.125 sec - in Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1501894252169" stop="1501894257297" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify FAQs about hotel.com rewards</name>
+    <title>Verify FAQs about hotel.com rewards</title>
+    <test-cases>
+        <test-case start="1501894252170" stop="1501894252170" status="passed">
+            <name>Given I open the default browser and I am on hotel deals page</name>
+            <title>Given I open the default browser and I am on hotel deals page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2195@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894255264" stop="1501894255265" status="passed">
+            <name>When User clicks on the collect 10 nights and get 1 night free tile</name>
+            <title>When User clicks on the collect 10 nights and get 1 night free tile</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2195@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894255309" stop="1501894255309" status="passed">
+            <name>And User scrolls down on the next page to got a question section</name>
+            <title>And User scrolls down on the next page to got a question section</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2195@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894255476" stop="1501894255477" status="passed">
+            <name>And User clicks on How do I collect nights question</name>
+            <title>And User clicks on How do I collect nights question</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2195@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894257295" stop="1501894257296" status="passed">
+            <name>Then User should be able to see the answer of the question under Collect Hotels.com® Rewards nights section and verify the first paragraph of the answer.</name>
+            <title>Then User should be able to see the answer of the question under Collect Hotels.com® Rewards nights section and verify the first paragraph of the answer.</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2195@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify FAQs about hotel.com rewards"/>
+        <label name="feature" value="Hotels.com feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

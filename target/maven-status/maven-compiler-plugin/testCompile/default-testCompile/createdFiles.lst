@@ -1,0 +1,13 @@
+stepdefinition/FaqRewardsSD.class
+stepdefinition/SharedSD.class
+framework/AirportShuttle.class
+framework/TestRunner.class
+stepdefinition/GuestRatingsSD.class
+stepdefinition/ShowDealsPageSD.class
+framework/GuestRatings.class
+stepdefinition/AtCheckInPageSD.class
+framework/FaqRewards.class
+framework/AtCheckInPage.class
+stepdefinition/AirportShuttleSD.class
+framework/BasePage.class
+framework/ShowDealsPage.class

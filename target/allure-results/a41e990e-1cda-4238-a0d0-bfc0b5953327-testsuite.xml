@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1503371024082" stop="1503371035698" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify guest ratings and amenities in GuestRatings</name>
+    <title>Verify guest ratings and amenities in GuestRatings</title>
+    <test-cases>
+        <test-case start="1503371024100" stop="1503371024103" status="passed">
+            <name>Given I open the default browser and I am on hotel deals page</name>
+            <title>Given I open the default browser and I am on hotel deals page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371024251" stop="1503371024251" status="passed">
+            <name>And User scrolls down to Great deals in popular destinations</name>
+            <title>And User scrolls down to Great deals in popular destinations</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371024396" stop="1503371024397" status="passed">
+            <name>And User selects any deals from the given options</name>
+            <title>And User selects any deals from the given options</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371025782" stop="1503371025782" status="passed">
+            <name>And User selects "08/25/17" check-in date in the pop-up window</name>
+            <title>And User selects "08/25/17" check-in date in the pop-up window</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371025978" stop="1503371025978" status="passed">
+            <name>And User selects "08/30/17" check-out in the pop-up window</name>
+            <title>And User selects "08/30/17" check-out in the pop-up window</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371026055" stop="1503371026055" status="passed">
+            <name>And User selects number of rooms to one</name>
+            <title>And User selects number of rooms to one</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371026124" stop="1503371026124" status="passed">
+            <name>And User selects number of adults to two</name>
+            <title>And User selects number of adults to two</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371026740" stop="1503371026740" status="passed">
+            <name>And User selects number of children to one</name>
+            <title>And User selects number of children to one</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371026845" stop="1503371026845" status="passed">
+            <name>And User selects age of children to one</name>
+            <title>And User selects age of children to one</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371032646" stop="1503371032647" status="passed">
+            <name>And User clicks on continue button</name>
+            <title>And User clicks on continue button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371032773" stop="1503371032773" status="passed">
+            <name>And User clicks on guest rating from the sort by options on the hotels list page</name>
+            <title>And User clicks on guest rating from the sort by options on the hotels list page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371033012" stop="1503371033012" status="passed">
+            <name>And User scrolls down and selects Free Beakfast from amenities</name>
+            <title>And User scrolls down and selects Free Beakfast from amenities</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371033362" stop="1503371033362" status="passed">
+            <name>And User selects Business from Themes</name>
+            <title>And User selects Business from Themes</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371033919" stop="1503371033919" status="passed">
+            <name>Then Verify that the first hotel option contains guest ratings score</name>
+            <title>Then Verify that the first hotel option contains guest ratings score</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371034123" stop="1503371034124" status="passed">
+            <name>And User clicks on First Hotel name</name>
+            <title>And User clicks on First Hotel name</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503371035695" stop="1503371035696" status="passed">
+            <name>And Verify the first hotel option contains selected amenities and themes</name>
+            <title>And Verify the first hotel option contains selected amenities and themes</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="659@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify guest ratings and amenities in GuestRatings"/>
+        <label name="feature" value="Hotels.com feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

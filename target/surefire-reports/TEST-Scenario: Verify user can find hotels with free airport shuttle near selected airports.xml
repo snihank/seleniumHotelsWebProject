@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0.025" tests="68" errors="0" skipped="55" failures="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/shakibkarim/Downloads/bootcamp_website"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/shakibkarim/Downloads/bootcamp_website"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/fp/ttz4zcxx79v0599hcs9l_x7h0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/shakibkarim/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6455682920982793537.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/shakibkarim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/shakibkarim"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="shakibkarim"/>
+    <property name="java.class.path" value="/Users/shakibkarim/eclipse/jee-neon/Eclipse.app/Contents/Eclipse/../../../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/shakibkarim/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/shakibkarim/Downloads/bootcamp_website/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Scenario: Verify guest ratings and amenities in GuestRatings" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <failure message="Element is not found with this locator: By.xpath: //a[@href=&apos;https://www.hotels.com/de1504033/hotels-las-vegas-nevada/&apos;]" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.xpath: //a[@href='https://www.hotels.com/de1504033/hotels-las-vegas-nevada/']
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.clickOn(BasePage.java:21)
+	at framework.GuestRatings.clickOnLasVegasDeal(GuestRatings.java:54)
+	at stepdefinition.GuestRatingsSD.iSelectLasVegasDeal(GuestRatingsSD.java:22)
+	at ✽.And User selects any deals from the given options(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:13)
+</failure>
+  </testcase>
+  <testcase name="And User selects &quot;08/02/17&quot; check-in date in the pop-up window" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects &quot;08/10/17&quot; check-out in the pop-up window" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects number of rooms to one" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects number of adults to two" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects number of children to one" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects age of children to one" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on continue button" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on guest rating from the sort by options on the hotels list page" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User scrolls down and selects Free Beakfast from amenities" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects Business from Themes" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Verify that the first hotel option contains guest ratings score" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on First Hotel name" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Verify the first hotel option contains selected amenities and themes" classname="Scenario: Verify guest ratings and amenities in GuestRatings" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I open the default browser and I am on Groups and Meetings page" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0"/>
+  <testcase name="When User types &quot;Boston&quot; into destination text field" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0.002">
+    <failure message="Element is not found with this locator: By.id: qf-1q-destination" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.ShowDealsPage.enterDestination(ShowDealsPage.java:41)
+	at stepdefinition.ShowDealsPageSD.userTypeDestination(ShowDealsPageSD.java:20)
+	at ✽.When User types "Boston" into destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:32)
+</failure>
+    <system-out><![CDATA[
+  Background:                                                             &amp#27;[90m# /Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:4&amp#27;[0m
+    #Given I open the default browser and I am on hotel deals page
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the default browser and I am on Groups and Meetings page&amp#27;[0m &amp#27;[90m# SharedSD.before()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify user can change search on show deals page in ShowDealsPage" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0.003">
+    <failure message="Element is not found with this locator: By.id: qf-1q-destination" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.ShowDealsPage.enterDestination(ShowDealsPage.java:41)
+	at stepdefinition.ShowDealsPageSD.userTypeDestination(ShowDealsPageSD.java:20)
+	at ✽.When User types "Boston" into destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:32)
+</failure>
+  </testcase>
+  <testcase name="And User selects destination from the drop down suggestions" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on &quot;08/02/2017&quot; check-in date" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on &quot;08/10/2017&quot; check-out date" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects one in the number of rooms drop down" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects two in the number of adults drop down" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects one in the number of children drop down" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects three in age of children drop down" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on show deals button" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on change search button on the show deals page" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects new &quot;08/04/2017&quot; check-in date" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects new &quot;08/07/2017&quot; check-out date" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User changes selection in number of rooms to two" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User changes selection in number of adults to two in the first room" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User changes selection in number of children to one in the first room" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User changes selection in age of first children to two" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User changes number of adults in the second room to one" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User adds one child in room two" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User adds age of child in the second room as one" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on search button" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then The changes in details are displayed" classname="Scenario: Verify user can change search on show deals page in ShowDealsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I open the default browser and I am on Groups and Meetings page" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0.001"/>
+  <testcase name="When User enters &quot;New York&quot; in Destination text field" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0.003">
+    <failure message="Element is not found with this locator: By.id: qf-1q-destination" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AtCheckInPage.enterAnyDestinationName(AtCheckInPage.java:34)
+	at stepdefinition.AtCheckInPageSD.ienterAnyDestinationName(AtCheckInPageSD.java:19)
+	at ✽.When User enters "New York" in Destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:57)
+</failure>
+    <system-out><![CDATA[
+  Background:                                                             &amp#27;[90m# /Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:4&amp#27;[0m
+    #Given I open the default browser and I am on hotel deals page
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the default browser and I am on Groups and Meetings page&amp#27;[0m &amp#27;[90m# SharedSD.before()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0.004">
+    <failure message="Element is not found with this locator: By.id: qf-1q-destination" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AtCheckInPage.enterAnyDestinationName(AtCheckInPage.java:34)
+	at stepdefinition.AtCheckInPageSD.ienterAnyDestinationName(AtCheckInPageSD.java:19)
+	at ✽.When User enters "New York" in Destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:57)
+</failure>
+  </testcase>
+  <testcase name="And User selects first destination from the suggestions" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects &quot;08/04/2017&quot; Check-In date" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects &quot;08/10/2017&quot; Check-Out date" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on edit or add rooms button" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects more than 1 room" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User select the number of adults in each room" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User select the number of children in each room" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User select the age of children at check-in" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on show deals" classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User should be able to see deals of rooms for the given amount of adults and children below the name of the specified destination under the header of the page." classname="Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I open the default browser and I am on Groups and Meetings page" classname="Scenario: Verify FAQs about hotel.com rewards" time="0"/>
+  <testcase name="When User clicks on the collect 10 nights and get 1 night free tile" classname="Scenario: Verify FAQs about hotel.com rewards" time="0.002">
+    <failure message="Element is not found with this locator: By.className: collect-text" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.className: collect-text
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.clickOn(BasePage.java:21)
+	at framework.FaqRewards.clickOnOfferLink(FaqRewards.java:23)
+	at stepdefinition.FaqRewardsSD.iClickOnOfferLink(FaqRewardsSD.java:20)
+	at ✽.When User clicks on the collect 10 nights and get 1 night free tile(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:72)
+</failure>
+    <system-out><![CDATA[
+  Background:                                                             &amp#27;[90m# /Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:4&amp#27;[0m
+    #Given I open the default browser and I am on hotel deals page
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the default browser and I am on Groups and Meetings page&amp#27;[0m &amp#27;[90m# SharedSD.before()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify FAQs about hotel.com rewards" classname="Scenario: Verify FAQs about hotel.com rewards" time="0.003">
+    <failure message="Element is not found with this locator: By.className: collect-text" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.className: collect-text
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.clickOn(BasePage.java:21)
+	at framework.FaqRewards.clickOnOfferLink(FaqRewards.java:23)
+	at stepdefinition.FaqRewardsSD.iClickOnOfferLink(FaqRewardsSD.java:20)
+	at ✽.When User clicks on the collect 10 nights and get 1 night free tile(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:72)
+</failure>
+  </testcase>
+  <testcase name="And User scrolls down on the next page to got a question section" classname="Scenario: Verify FAQs about hotel.com rewards" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on How do I collect nights question" classname="Scenario: Verify FAQs about hotel.com rewards" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User should be able to see the answer of the question under Collect Hotels.com® Rewards nights section and verify the first paragraph of the answer." classname="Scenario: Verify FAQs about hotel.com rewards" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I open the default browser and I am on Groups and Meetings page" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0"/>
+  <testcase name="When User enters &quot;New York&quot; in Destination, hotel, landmark, or address text field" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0.003">
+    <failure message="Element is not found with this locator: By.id: qf-1q-destination" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AirportShuttle.enterDestinationName(AirportShuttle.java:59)
+	at stepdefinition.AirportShuttleSD.iEnterDestinationName(AirportShuttleSD.java:14)
+	at ✽.When User enters "New York" in Destination, hotel, landmark, or address text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:80)
+</failure>
+    <system-out><![CDATA[
+  Background:                                                             &amp#27;[90m# /Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:4&amp#27;[0m
+    #Given I open the default browser and I am on hotel deals page
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the default browser and I am on Groups and Meetings page&amp#27;[0m &amp#27;[90m# SharedSD.before()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify user can find hotels with free airport shuttle near selected airports" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0.004">
+    <failure message="Element is not found with this locator: By.id: qf-1q-destination" type="java.lang.AssertionError">java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AirportShuttle.enterDestinationName(AirportShuttle.java:59)
+	at stepdefinition.AirportShuttleSD.iEnterDestinationName(AirportShuttleSD.java:14)
+	at ✽.When User enters "New York" in Destination, hotel, landmark, or address text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:80)
+</failure>
+  </testcase>
+  <testcase name="And User confirms check-in date" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User confirms check-out date" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selects the number of rooms, adults, children" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on Show Deals" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User scrolls down to select any airports from Landmark drop down" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on Airport transfers under amenities drop down" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User scrolls up" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User clicks on hotel name on top of the list" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User can find free airport shuttle in the main amenities section" classname="Scenario: Verify user can find hotels with free airport shuttle near selected airports" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

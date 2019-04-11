@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1501894058301" stop="1501894068359" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can change search on show deals page in ShowDealsPage</name>
+    <title>Verify user can change search on show deals page in ShowDealsPage</title>
+    <test-cases>
+        <test-case start="1501894058301" stop="1501894058301" status="passed">
+            <name>Given I open the default browser and I am on Groups and Meetings page</name>
+            <title>Given I open the default browser and I am on Groups and Meetings page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068328" stop="1501894068329" status="failed">
+            <name>When User types "Boston" into destination text field</name>
+            <title>When User types "Boston" into destination text field</title>
+            <failure>
+                <message>AssertionError: Element is not found with this locator: By.id: qf-1q-destination</message>
+                <stack-trace>java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.ShowDealsPage.enterDestination(ShowDealsPage.java:41)
+	at stepdefinition.ShowDealsPageSD.userTypeDestination(ShowDealsPageSD.java:20)
+	at ✽.When User types "Boston" into destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:32)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068331" stop="1501894068331" status="pending">
+            <name>And User selects destination from the drop down suggestions</name>
+            <title>And User selects destination from the drop down suggestions</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068332" stop="1501894068332" status="pending">
+            <name>And User clicks on "08/02/2017" check-in date</name>
+            <title>And User clicks on "08/02/2017" check-in date</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068334" stop="1501894068334" status="pending">
+            <name>And User clicks on "08/10/2017" check-out date</name>
+            <title>And User clicks on "08/10/2017" check-out date</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068335" stop="1501894068335" status="pending">
+            <name>And User selects one in the number of rooms drop down</name>
+            <title>And User selects one in the number of rooms drop down</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068337" stop="1501894068337" status="pending">
+            <name>And User selects two in the number of adults drop down</name>
+            <title>And User selects two in the number of adults drop down</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068338" stop="1501894068338" status="pending">
+            <name>And User selects one in the number of children drop down</name>
+            <title>And User selects one in the number of children drop down</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068340" stop="1501894068340" status="pending">
+            <name>And User selects three in age of children drop down</name>
+            <title>And User selects three in age of children drop down</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068341" stop="1501894068341" status="pending">
+            <name>And User clicks on show deals button</name>
+            <title>And User clicks on show deals button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068342" stop="1501894068342" status="pending">
+            <name>And User clicks on change search button on the show deals page</name>
+            <title>And User clicks on change search button on the show deals page</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068344" stop="1501894068344" status="pending">
+            <name>And User selects new "08/04/2017" check-in date</name>
+            <title>And User selects new "08/04/2017" check-in date</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068346" stop="1501894068346" status="pending">
+            <name>And User selects new "08/07/2017" check-out date</name>
+            <title>And User selects new "08/07/2017" check-out date</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068347" stop="1501894068347" status="pending">
+            <name>And User changes selection in number of rooms to two</name>
+            <title>And User changes selection in number of rooms to two</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068349" stop="1501894068349" status="pending">
+            <name>And User changes selection in number of adults to two in the first room</name>
+            <title>And User changes selection in number of adults to two in the first room</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068350" stop="1501894068350" status="pending">
+            <name>And User changes selection in number of children to one in the first room</name>
+            <title>And User changes selection in number of children to one in the first room</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068351" stop="1501894068351" status="pending">
+            <name>And User changes selection in age of first children to two</name>
+            <title>And User changes selection in age of first children to two</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068353" stop="1501894068353" status="pending">
+            <name>And User changes number of adults in the second room to one</name>
+            <title>And User changes number of adults in the second room to one</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068354" stop="1501894068354" status="pending">
+            <name>And User adds one child in room two</name>
+            <title>And User adds one child in room two</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068356" stop="1501894068356" status="pending">
+            <name>And User adds age of child in the second room as one</name>
+            <title>And User adds age of child in the second room as one</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068357" stop="1501894068357" status="pending">
+            <name>And User clicks on search button</name>
+            <title>And User clicks on search button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894068359" stop="1501894068359" status="pending">
+            <name>Then The changes in details are displayed</name>
+            <title>Then The changes in details are displayed</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can change search on show deals page in ShowDealsPage"/>
+        <label name="feature" value="Hotels.com feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

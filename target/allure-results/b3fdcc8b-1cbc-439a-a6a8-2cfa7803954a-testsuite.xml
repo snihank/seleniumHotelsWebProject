@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1501548407618" stop="1501548429325" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can find hotels with free airport shuttle near selected airports</name>
+    <title>Verify user can find hotels with free airport shuttle near selected airports</title>
+    <test-cases>
+        <test-case start="1501548407619" stop="1501548407619" status="passed">
+            <name>Given I open the default browser and I am on hotel deals page</name>
+            <title>Given I open the default browser and I am on hotel deals page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548410946" stop="1501548410946" status="passed">
+            <name>When User enters "New York" in Destination, hotel, landmark, or address text field</name>
+            <title>When User enters "New York" in Destination, hotel, landmark, or address text field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548417168" stop="1501548417168" status="passed">
+            <name>And User confirms check-in date</name>
+            <title>And User confirms check-in date</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548417385" stop="1501548417385" status="passed">
+            <name>And User confirms check-out date</name>
+            <title>And User confirms check-out date</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548418050" stop="1501548418050" status="passed">
+            <name>And User selects the number of rooms, adults, children</name>
+            <title>And User selects the number of rooms, adults, children</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548423510" stop="1501548423510" status="passed">
+            <name>And User clicks on Show Deals</name>
+            <title>And User clicks on Show Deals</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548426704" stop="1501548426704" status="passed">
+            <name>And User scrolls down to select any airports from Landmark drop down</name>
+            <title>And User scrolls down to select any airports from Landmark drop down</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548427963" stop="1501548427964" status="passed">
+            <name>And User clicks on Airport transfers under amenities drop down</name>
+            <title>And User clicks on Airport transfers under amenities drop down</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548427972" stop="1501548427972" status="passed">
+            <name>And User scrolls up</name>
+            <title>And User scrolls up</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548428211" stop="1501548428211" status="passed">
+            <name>And User clicks on hotel name on top of the list</name>
+            <title>And User clicks on hotel name on top of the list</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548429324" stop="1501548429324" status="passed">
+            <name>Then User can find free airport shuttle in the main amenities section</name>
+            <title>Then User can find free airport shuttle in the main amenities section</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can find hotels with free airport shuttle near selected airports"/>
+        <label name="feature" value="Hotels.com feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

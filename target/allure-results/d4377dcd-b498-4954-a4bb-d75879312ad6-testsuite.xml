@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1501894085228" stop="1501894095251" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify FAQs about hotel.com rewards</name>
+    <title>Verify FAQs about hotel.com rewards</title>
+    <test-cases>
+        <test-case start="1501894085228" stop="1501894085228" status="passed">
+            <name>Given I open the default browser and I am on Groups and Meetings page</name>
+            <title>Given I open the default browser and I am on Groups and Meetings page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894095244" stop="1501894095245" status="failed">
+            <name>When User clicks on the collect 10 nights and get 1 night free tile</name>
+            <title>When User clicks on the collect 10 nights and get 1 night free tile</title>
+            <failure>
+                <message>AssertionError: Element is not found with this locator: By.className: collect-text</message>
+                <stack-trace>java.lang.AssertionError: Element is not found with this locator: By.className: collect-text
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.clickOn(BasePage.java:21)
+	at framework.FaqRewards.clickOnOfferLink(FaqRewards.java:23)
+	at stepdefinition.FaqRewardsSD.iClickOnOfferLink(FaqRewardsSD.java:20)
+	at ✽.When User clicks on the collect 10 nights and get 1 night free tile(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:72)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894095247" stop="1501894095247" status="pending">
+            <name>And User scrolls down on the next page to got a question section</name>
+            <title>And User scrolls down on the next page to got a question section</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894095249" stop="1501894095249" status="pending">
+            <name>And User clicks on How do I collect nights question</name>
+            <title>And User clicks on How do I collect nights question</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501894095250" stop="1501894095250" status="pending">
+            <name>Then User should be able to see the answer of the question under Collect Hotels.com® Rewards nights section and verify the first paragraph of the answer.</name>
+            <title>Then User should be able to see the answer of the question under Collect Hotels.com® Rewards nights section and verify the first paragraph of the answer.</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="2113@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify FAQs about hotel.com rewards"/>
+        <label name="feature" value="Hotels.com feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

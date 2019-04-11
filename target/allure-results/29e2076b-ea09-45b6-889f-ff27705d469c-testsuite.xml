@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1501548379788" stop="1501548391505" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage</name>
+    <title>Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage</title>
+    <test-cases>
+        <test-case start="1501548379789" stop="1501548379789" status="passed">
+            <name>Given I open the default browser and I am on hotel deals page</name>
+            <title>Given I open the default browser and I am on hotel deals page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548382996" stop="1501548382996" status="passed">
+            <name>When User enters "New York" in Destination text field</name>
+            <title>When User enters "New York" in Destination text field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548383106" stop="1501548383107" status="passed">
+            <name>And User selects first destination from the suggestions</name>
+            <title>And User selects first destination from the suggestions</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548383781" stop="1501548383781" status="passed">
+            <name>And User selects "08/04/2017" Check-In date</name>
+            <title>And User selects "08/04/2017" Check-In date</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548384011" stop="1501548384011" status="passed">
+            <name>And User selects "08/10/2017" Check-Out date</name>
+            <title>And User selects "08/10/2017" Check-Out date</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548384106" stop="1501548384106" status="passed">
+            <name>And User clicks on edit or add rooms button</name>
+            <title>And User clicks on edit or add rooms button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548384380" stop="1501548384380" status="passed">
+            <name>And User selects more than 1 room</name>
+            <title>And User selects more than 1 room</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548384446" stop="1501548384446" status="passed">
+            <name>And User select the number of adults in each room</name>
+            <title>And User select the number of adults in each room</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548384551" stop="1501548384551" status="passed">
+            <name>And User select the number of children in each room</name>
+            <title>And User select the number of children in each room</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548384654" stop="1501548384654" status="passed">
+            <name>And User select the age of children at check-in</name>
+            <title>And User select the age of children at check-in</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548391459" stop="1501548391459" status="passed">
+            <name>And User clicks on show deals</name>
+            <title>And User clicks on show deals</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1501548391504" stop="1501548391504" status="passed">
+            <name>Then User should be able to see deals of rooms for the given amount of adults and children below the name of the specified destination under the header of the page.</name>
+            <title>Then User should be able to see deals of rooms for the given amount of adults and children below the name of the specified destination under the header of the page.</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shakibs-MacBook-Pro.local"/>
+                <label name="thread" value="845@Shakibs-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage"/>
+        <label name="feature" value="Hotels.com feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

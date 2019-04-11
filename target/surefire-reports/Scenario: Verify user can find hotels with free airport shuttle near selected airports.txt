@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Verify user can find hotels with free airport shuttle near selected airports
+-------------------------------------------------------------------------------
+Tests run: 68, Failures: 9, Errors: 0, Skipped: 55, Time elapsed: 54.069 sec <<< FAILURE! - in Scenario: Verify user can find hotels with free airport shuttle near selected airports
+Scenario: Verify guest ratings and amenities in GuestRatings  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.xpath: //a[@href='https://www.hotels.com/de1504033/hotels-las-vegas-nevada/']
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.clickOn(BasePage.java:21)
+	at framework.GuestRatings.clickOnLasVegasDeal(GuestRatings.java:54)
+	at stepdefinition.GuestRatingsSD.iSelectLasVegasDeal(GuestRatingsSD.java:22)
+	at ✽.And User selects any deals from the given options(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:13)
+
+When User types "Boston" into destination text field(Scenario: Verify user can change search on show deals page in ShowDealsPage)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.ShowDealsPage.enterDestination(ShowDealsPage.java:41)
+	at stepdefinition.ShowDealsPageSD.userTypeDestination(ShowDealsPageSD.java:20)
+	at ✽.When User types "Boston" into destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:32)
+
+Scenario: Verify user can change search on show deals page in ShowDealsPage  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.ShowDealsPage.enterDestination(ShowDealsPage.java:41)
+	at stepdefinition.ShowDealsPageSD.userTypeDestination(ShowDealsPageSD.java:20)
+	at ✽.When User types "Boston" into destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:32)
+
+When User enters "New York" in Destination text field(Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AtCheckInPage.enterAnyDestinationName(AtCheckInPage.java:34)
+	at stepdefinition.AtCheckInPageSD.ienterAnyDestinationName(AtCheckInPageSD.java:19)
+	at ✽.When User enters "New York" in Destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:57)
+
+Scenario: Verify user can select number of rooms, adults and children age at check in before showing deals in CheckInPage  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AtCheckInPage.enterAnyDestinationName(AtCheckInPage.java:34)
+	at stepdefinition.AtCheckInPageSD.ienterAnyDestinationName(AtCheckInPageSD.java:19)
+	at ✽.When User enters "New York" in Destination text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:57)
+
+When User clicks on the collect 10 nights and get 1 night free tile(Scenario: Verify FAQs about hotel.com rewards)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.className: collect-text
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.clickOn(BasePage.java:21)
+	at framework.FaqRewards.clickOnOfferLink(FaqRewards.java:23)
+	at stepdefinition.FaqRewardsSD.iClickOnOfferLink(FaqRewardsSD.java:20)
+	at ✽.When User clicks on the collect 10 nights and get 1 night free tile(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:72)
+
+Scenario: Verify FAQs about hotel.com rewards  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.className: collect-text
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.clickOn(BasePage.java:21)
+	at framework.FaqRewards.clickOnOfferLink(FaqRewards.java:23)
+	at stepdefinition.FaqRewardsSD.iClickOnOfferLink(FaqRewardsSD.java:20)
+	at ✽.When User clicks on the collect 10 nights and get 1 night free tile(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:72)
+
+When User enters "New York" in Destination, hotel, landmark, or address text field(Scenario: Verify user can find hotels with free airport shuttle near selected airports)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AirportShuttle.enterDestinationName(AirportShuttle.java:59)
+	at stepdefinition.AirportShuttleSD.iEnterDestinationName(AirportShuttleSD.java:14)
+	at ✽.When User enters "New York" in Destination, hotel, landmark, or address text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:80)
+
+Scenario: Verify user can find hotels with free airport shuttle near selected airports  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Element is not found with this locator: By.id: qf-1q-destination
+	at org.testng.Assert.fail(Assert.java:93)
+	at framework.BasePage.sendText(BasePage.java:42)
+	at framework.AirportShuttle.enterDestinationName(AirportShuttle.java:59)
+	at stepdefinition.AirportShuttleSD.iEnterDestinationName(AirportShuttleSD.java:14)
+	at ✽.When User enters "New York" in Destination, hotel, landmark, or address text field(/Users/shakibkarim/Downloads/bootcamp_website/src/test/resources/features/HotelsProject.feature:80)
+
